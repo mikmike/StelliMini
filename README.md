@@ -8,7 +8,7 @@ fails a status check.
 
 
 **Building Directions** (using Maven / Java 1.7):
-If you don't want to build you can download the main runnable jar from https://github.com/mikmike/StelliMini/downloads
+If you don't want to build you can download the main runnable jar from https://github.com/mikmike/StelliMini/tree/master/downloads
 
 Build steps:
 First clone this git project locally with:
