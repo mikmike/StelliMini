@@ -56,4 +56,5 @@ have already been created and don't need to be created again.
 You will receive an email notification from Amazon to the email address you provide that asks
 you to confirm your subscription to the status check topic. Please accept and confirm that notification.
 
-
+Thanks,
+Mike M.
