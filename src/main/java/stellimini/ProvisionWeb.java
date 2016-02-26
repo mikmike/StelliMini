@@ -187,7 +187,7 @@ public class ProvisionWeb {
 		ec2AlarmRequest.withActionsEnabled(true)
 					.withAlarmActions(alarmActions)
 					.withNamespace("AWS/EC2")		
-					.withAlarmName("Instance Status Check")
+					.withAlarmName("Instance Status Check for " + newInstance.getInstanceId())
 					.withAlarmDescription("Checks general status of the instance")
 					.withStatistic(Statistic.Maximum)					
 					.withMetricName("StatusCheckFailed")		
