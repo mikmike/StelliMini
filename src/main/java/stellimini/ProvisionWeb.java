@@ -183,7 +183,7 @@ public class ProvisionWeb {
 		instanceDim.setValue(newInstance.getInstanceId());
 		ArrayList<Dimension> dimensionList = new ArrayList<Dimension> ();
 		dimensionList.add(instanceDim);
-		
+		 
 		ec2AlarmRequest.withActionsEnabled(true)
 					.withAlarmActions(alarmActions)
 					.withNamespace("AWS/EC2")		
