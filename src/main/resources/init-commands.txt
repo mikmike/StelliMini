@@ -9,4 +9,4 @@ chown -R root:www /var/www
 chmod 2775 /var/www
 find /var/www -type d -exec chmod 2775 {} +
 find /var/www -type f -exec chmod 0664 {} +
-echo "<html><body><h1>Hello, Stelli</h1></body></html>" > /var/www/html/index.html
+echo "<html><body><h1>Automation For the People</h1></body></html>" > /var/www/html/index.html
